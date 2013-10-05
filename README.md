@@ -6,3 +6,10 @@
 ```shell
 $ npm install rng
 ```
+
+
+## Install via [bower](http://twitter.github.com/bower/)
+
+```shell
+$ bower install rng
+```
