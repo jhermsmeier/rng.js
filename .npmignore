@@ -1,0 +1,5 @@
+.*
+node_modules
+benchmark
+test
+bower.json
