@@ -3,7 +3,7 @@
   "name": "rng",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "",
+  "description": "Collection of Pseudorandom Number Generators",
   "kewords": [
     "pseudo", "random", "number", "generator",
     "mersenne", "twister", "park", "miller"
