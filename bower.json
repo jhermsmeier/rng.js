@@ -4,12 +4,13 @@
   "version": "0.0.0",
   
   "main": [
-    "rng.lib.js"
+    "rng.js",
+    "lib/mersenne-twister.js",
+    "lib/park-miller.js",
+    "lib/xor.js"
   ],
   
   "ignore": [
-    "rng.js",
-    "lib",
     "node_modules",
     "benchmark",
     "test",
