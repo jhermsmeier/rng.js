@@ -2,11 +2,17 @@ function Random() {
   this._normal = null
 }
 
-module.exports = Random
-
-Random.MT = require( './lib/mersenne-twister' )
-Random.PM = require( './lib/park-miller' )
-Random.XOR = require( './lib/xor' )
+if( typeof module !== 'undefined' ) {
+  
+  module.exports = Random
+  
+  if( typeof require === 'function' ) {
+    Random.MT = require( './lib/mersenne-twister' )
+    Random.PM = require( './lib/park-miller' )
+    Random.XOR = require( './lib/xor' )
+  }
+  
+}
 
 Random.prototype = {
   
