@@ -5,8 +5,9 @@
   "license": "MIT",
   "description": "Collection of Pseudorandom Number Generators",
   "kewords": [
-    "pseudo", "random", "number", "generator",
-    "mersenne", "twister", "park", "miller"
+    "seed", "pseudo", "random", "number", "generator",
+    "mersenne", "twister", "park", "miller", "xor", "shift",
+    "seedable"
   ],
   
   "author": {
