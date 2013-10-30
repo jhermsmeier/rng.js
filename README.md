@@ -15,9 +15,40 @@ $ bower install rng
 ```
 
 
+## Usage
+
+### Node.js
+
+```javascript
+// Require the module
+var Random = require( 'rng' )
+// Instantiate a new Mersenne Twister with a seed
+var mt = new Random.MT( seed )
+// ...
+```
+
+
+### Browser
+
+```html
+<!-- Required -->
+<script src="path/to/rng/rng.js"></script>
+<!-- Optionals, only load what you need -->
+<script src="path/to/rng/lib/mersenne-twister.js"></script>
+<script src="path/to/rng/lib/park-miller.js"></script>
+<script src="path/to/rng/lib/....js"></script>
+```
+
+```javascript
+// RNG.js exports the global `Random`, so you're good to go.
+// Instantiate a new Mersenne Twister with a seed
+var mt = new Random.MT( seed )
+```
+
+
 ## API
 
-### Class `RNG()`
+### Class: `RNG()`
 Base class using `Math.random()` as PRNG.
 All other classes inherit from `RNG()`.
 
@@ -50,12 +81,12 @@ Get gamma distributed number, using uniform, normal and exp with the Marsaglia-T
 
 ## Algorithms
 
-### Class `RNG.MT( seed )` - *Mersenne Twister*
-### Class `RNG.PM( seed )` - *Park-Miller*
-### Class `RNG.XOR( x, y, z, w )` - *XOR Shift*
+### Class: `RNG.MT( seed )` - *Mersenne Twister*
+### Class: `RNG.PM( seed )` - *Park-Miller*
+### Class: `RNG.XOR( x, y, z, w )` - *XOR Shift*
 
 
-#### Not yet implemented:
+#### Not (yet?) implemented:
 
 - **ISAAC** - *ISAAC (indirection, shift, accumulate, add, count)*
 - **MWC** - *Multiply-With-Carry*
@@ -65,3 +96,4 @@ Get gamma distributed number, using uniform, normal and exp with the Marsaglia-T
 - **LFG** - *Lagged Fibonacci Generator*
 - **LFSR** - *Linear Feedback Shift Register*
 - **NRPF** - *Naor-Reingold Pseudorandom Function*
+- **BBS** - *Blum Blum Shub*
