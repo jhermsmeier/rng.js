@@ -1,4 +1,4 @@
-# Random [ ATTENTION: WIP ]
+# Random [![build status](https://secure.travis-ci.org/jhermsmeier/rng.js.png)](http://travis-ci.org/jhermsmeier/rng.js) [![NPM version](https://badge.fury.io/js/rng.png)](https://npmjs.org/rng) [![Code Climate](https://codeclimate.com/github/jhermsmeier/rng.js.png)](https://codeclimate.com/github/jhermsmeier/rng.js)
 
 
 ## Install via [npm](https://npmjs.org/)
