@@ -1,7 +1,7 @@
 {
   
   "name": "rng",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "description": "Collection of seedable Pseudorandom Number Generators",
   "kewords": [
