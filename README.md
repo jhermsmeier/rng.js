@@ -82,7 +82,7 @@ Get exponentionally distributed number with lambda 1
 **Number `poisson( mean )`**
 Get poisson distributed number, the mean defaulting to 1
 
-**Number `gaussian( a )`**
+**Number `gamma( a )`**
 Get gamma distributed number, using uniform, normal and exp with the Marsaglia-Tsang method
 
 
